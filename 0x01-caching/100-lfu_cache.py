@@ -63,4 +63,4 @@ class LFUCache(BaseCaching):
             self.usage.append(key)
             self.frequency[key] += 1
             return self.cache_data[key]
-        return None return None
+        return None

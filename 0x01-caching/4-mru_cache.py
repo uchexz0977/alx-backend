@@ -41,4 +41,4 @@ class MRUCache(BaseCaching):
             del self.usage[self.usage.index(key)]
             self.usage.append(key)
             return self.cache_data[key]
-        return Noneeturn None
+        return None
